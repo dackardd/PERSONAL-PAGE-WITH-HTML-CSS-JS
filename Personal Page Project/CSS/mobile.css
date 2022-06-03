@@ -1,0 +1,53 @@
+#navbar {
+
+flex-direction: column;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+overflow: hidden;
+height: 80px;
+}
+
+#training .items {
+
+flex-direction: column;
+
+}
+
+#training .items .item {
+
+width: 100%;
+
+
+}
+
+section footer {
+    
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+section footer ul {
+
+position:static;
+
+}
+
+section footer ul li{
+
+list-style-position:unset;
+
+}
+
+section footer ul li a {
+
+font-size: 0.8rem;
+
+}
+
+section footer pre {
+
+font-size: 0.8rem;
+
+}
+

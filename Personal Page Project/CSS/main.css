@@ -1,0 +1,414 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+a {
+
+text-decoration: none;
+color: #fff;
+
+}
+
+#idlink:hover{
+
+background-color:#336ea2;
+border-radius: 4px;
+
+}
+
+html {
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+ /* Navigation Bar */
+
+#navbar {
+
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 0.75rem;
+height: 70px;
+}
+
+#navbar ul {
+
+list-style-type: none;
+display: flex;
+align-items: center;
+}
+
+#navbar ul li a {
+
+padding: 0.5rem;
+
+
+}
+
+#navbar ul li a:hover {
+
+    background:#336ea2 ;
+    border-radius: 4px;
+    }
+
+    /* Home Section */
+
+     
+    
+#home{
+
+display: flex;
+flex-direction: center;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+border-bottom: 1px solid grey;
+
+     }
+
+#home img {
+
+max-width: 100%;
+height: auto;
+border-radius: 100%;
+
+
+}
+
+#home .name h2 {
+
+margin-bottom: 0.75rem;
+
+}
+
+#home .name p {
+
+opacity: 0.6;
+font-style: italic;
+}
+
+/* Training */
+
+#training {
+
+color: #fff;
+padding: 1rem;
+
+}
+
+#training .items{
+
+display: flex;
+justify-content: space-between;
+align-items: center ;
+
+}
+
+#training .items .item {
+
+width: 33%;
+text-align: center;
+padding: 0.5rem;
+
+}
+
+#training .items .item:hover {
+
+color: red;
+opacity: 0.6;
+
+}
+
+#training-1 {
+
+  color: #fff;
+  padding: 1rem;
+  
+  }
+  
+  #training-1 .items{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  
+  }
+  
+  #training-1 .items .item {
+  
+  width: 33%;
+  text-align: center;
+  padding: 0.5rem;
+  
+  }
+  
+  #training-1 .items .item:hover {
+  
+  color: red;
+  opacity: 0.6;
+  
+  }
+
+#courses {
+
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+
+
+}
+
+
+/* BLOG CSS */
+.cards {
+
+border: 1px solid white;
+padding: 3rem;
+margin: 2rem;
+border-radius: 100px;
+background-color: #062e51;
+color: white;
+text-decoration:solid;
+text-align: center;
+}
+
+
+
+  .footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+#footer {
+
+  background:#062e51 ;
+  color: #fff;
+  width: 100%;
+
+}
+
+/* SLİDER CSS */
+
+/* @media(max-width:500px) {
+
+header nav h1 {
+
+position:absolute;
+left: 0;
+top:0;
+
+}
+
+header nav ul {
+
+position: absolute;
+right: 0;
+top: 0;
+
+}
+} */
+
+
+.wrapper{
+  width: 400px;
+  font-family: 'Roboto', sans-serif;
+margin:0 auto;
+}
+.skill {
+  margin-bottom: 35px;
+  position: relative;
+overflow-x:hidden;
+
+}
+.skill > p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1716;
+  margin: 0;
+}
+.skill:before{
+  width: 100%;
+  height: 5px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #959595;
+  bottom: 0;
+}
+.skill-bar {
+  width: 100%;
+  height: 5px;
+  background:#062e51;
+  display: block;
+  position: relative;
+}
+
+/* SKILL 1 */
+.skill1{
+  width: 70%;
+
+}
+.skill-bar span{
+  position: absolute;
+  border-top: 5px solid #f4392f;
+  top: -30px;
+  padding: 0;
+  font-size: 18px;
+  padding: 3px 0;
+  font-weight: 500;
+}
+.skill-bar {
+  position: relative;
+
+}
+
+.skill1 .skill-count1 {
+  right: 0;
+}
+/* SKILL 2 */
+.skill2{
+  width: 40%;
+}
+
+.skill2 .skill-count2 {
+  right: 0;
+}
+/* SKILL 3 */
+.skill3{
+  width: 45%;
+}
+.skill3 .skill-count3 {
+  right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+  width: 50%
+}
+
+.skill4 .skill-count4 {
+  right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
+  width: 50%;
+}
+
+.skill5 .skill-count5 {
+  right: 0;
+}
+
+/* SKILL 6 */
+.skill6{
+  width: 40%
+}
+
+.skill6 .skill-count6 {
+  right: 0;
+}
+
+
+
+/* FOOTER */
+
+
+
+footer h2 {
+
+  font-size: 2.50rem;
+  color: whitesmoke;
+  padding-bottom: 15px ;
+
+}
+
+footer div a i {
+
+  font-size: 1.90rem;
+  padding: 0.35rem  0.7rem;
+  
+}
+
+footer div a i:hover{
+
+background-color:black;
+
+}
+
+footer p {
+
+  color: whitesmoke;
+  font-size: 1.40rem;
+  padding-top: 1.75rem ;
+
+}
+
